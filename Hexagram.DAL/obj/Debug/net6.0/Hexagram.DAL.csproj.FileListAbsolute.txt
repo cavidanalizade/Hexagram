@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\bin\Debug\net6.0\Hexagram.DAL.deps.json
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\bin\Debug\net6.0\Hexagram.DAL.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\bin\Debug\net6.0\Hexagram.DAL.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\bin\Debug\net6.0\Hexagram.Core.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\bin\Debug\net6.0\Hexagram.Core.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.AssemblyInfo.cs
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.csproj.CopyComplete
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\refint\Hexagram.DAL.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\ref\Hexagram.DAL.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\bin\Debug\net6.0\Hexagram.DAL.runtimeconfig.json
+C:\Users\User\source\repos\Hexagram\Hexagram.DAL\obj\Debug\net6.0\Hexagram.DAL.genruntimeconfig.cache

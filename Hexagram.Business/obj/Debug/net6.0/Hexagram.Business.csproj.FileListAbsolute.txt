@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.Business.deps.json
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.Business.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.Business.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.Core.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.DAL.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.DAL.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\bin\Debug\net6.0\Hexagram.Core.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.AssemblyInfo.cs
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.csproj.CopyComplete
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\refint\Hexagram.Business.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\ref\Hexagram.Business.dll

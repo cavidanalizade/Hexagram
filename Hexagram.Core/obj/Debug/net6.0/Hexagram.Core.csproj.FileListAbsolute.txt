@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\bin\Debug\net6.0\Hexagram.Core.deps.json
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\bin\Debug\net6.0\Hexagram.Core.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\bin\Debug\net6.0\Hexagram.Core.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.AssemblyInfo.cs
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\refint\Hexagram.Core.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.pdb
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\ref\Hexagram.Core.dll
