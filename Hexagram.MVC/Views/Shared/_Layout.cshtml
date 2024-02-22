@@ -432,7 +432,7 @@
                                     <div class="p-4 py-5 flex items-center gap-4">
                                         <img src="assets/images/avatars/avatar-2.jpg" alt="" class="w-10 h-10 rounded-full shadow">
                                         <div class="flex-1">
-                                            <h4 class="text-sm font-medium text-black">Stell johnson</h4>
+                                            <h4 class="text-sm font-medium text-black">@if (@User.Identity.IsAuthenticated) {@User.Identity.Name }</h4>
                                             <div class="text-sm mt-1 text-blue-600 font-light dark:text-white/70"></div>
                                         </div>
                                     </div>

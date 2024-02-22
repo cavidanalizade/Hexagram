@@ -10,3 +10,4 @@ C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core
 C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\refint\Hexagram.Core.dll
 C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.pdb
 C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\ref\Hexagram.Core.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Core\obj\Debug\net6.0\Hexagram.Core.sourcelink.json

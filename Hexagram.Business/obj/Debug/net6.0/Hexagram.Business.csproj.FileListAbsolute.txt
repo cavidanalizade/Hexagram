@@ -15,3 +15,4 @@ C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.
 C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\refint\Hexagram.Business.dll
 C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.pdb
 C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\ref\Hexagram.Business.dll
+C:\Users\User\source\repos\Hexagram\Hexagram.Business\obj\Debug\net6.0\Hexagram.Business.sourcelink.json

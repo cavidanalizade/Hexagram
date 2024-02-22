@@ -9,112 +9,88 @@ namespace Hexagram.MVC.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly SignInManager<AppUser> _signinManager;
+        private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-
-
-
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signinManager, RoleManager<IdentityRole> roleManager)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
-            _signinManager = signinManager;
+            _signInManager = signInManager;
             _roleManager = roleManager;
         }
 
-
         public IActionResult Register()
         {
-
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Register(AppUserVM appUserVM)
+        public async Task<IActionResult> Register(RegisterUserVM registerUserVM)
         {
             if (!ModelState.IsValid)
             {
-                return View();
+                return View(registerUserVM);
             }
-            AppUser _appuser = new AppUser
+            AppUser appUser = new AppUser()
             {
-                Name = appUserVM.Name,
-                Email = appUserVM.Email,
-                Surname = appUserVM.Surname,
-                UserName = appUserVM.Username
-
-
+                Name = registerUserVM.Name,
+                Email = registerUserVM.Email,
+                Surname = registerUserVM.Surname,
+                UserName = registerUserVM.Username
             };
-
-            var create = await _userManager.CreateAsync(_appuser, appUserVM.Password);
+            var create = await _userManager.CreateAsync(appUser, registerUserVM.Password);
             if (!create.Succeeded)
             {
                 foreach (var item in create.Errors)
                 {
-                    ModelState.AddModelError("", item.Description);
+                    ModelState.AddModelError(string.Empty, item.Description);
+
                 }
-                return View(appUserVM);
+                return View(registerUserVM);
             }
-
-            await _userManager.AddToRoleAsync(_appuser, UserRole.Admin.ToString());
-
-            return RedirectToAction(nameof(Login), "Account");
+            await _userManager.AddToRoleAsync(appUser, UserRole.Admin.ToString());
+            return RedirectToAction("index", "home");
 
         }
-
-        public IActionResult Login(string? returnUrl)
+        public async Task<IActionResult> Login()
         {
-            ViewData["ReturnUrl"] = returnUrl;
             return View();
         }
-
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVm loginVm, string? returnUrl)
+        public async Task<IActionResult> Login(LoginVM loginVM)
         {
-            ViewData["ReturnUrl"] = returnUrl;
-            returnUrl = returnUrl ?? Url.Content("~/");
-            /*           if (Url.IsLocalUrl(returnUrl))
-                       {
-                           return View(returnUrl);
-                       };*/
-
             if (!ModelState.IsValid)
             {
-                return View();
+                return View(loginVM);
             }
-            AppUser user = await _userManager.FindByEmailAsync(loginVm.Email);
+            AppUser user = await _userManager.FindByEmailAsync(loginVM.Email);
             if (user == null)
             {
-                ModelState.AddModelError(string.Empty, "Email or password is invalid");
-                return View(loginVm);
-            }
-            var result = await _signinManager.PasswordSignInAsync(user, loginVm.Password, loginVm.RememberMe, true);
-            if (result.IsLockedOut)
-            {
-                ModelState.AddModelError("", "Your Account Is Lock Out");
-                return View(loginVm);
+                ModelState.AddModelError("", "Email ve ya password sehvdir");
+                return View(loginVM);
             }
 
+
+            var result = await _signInManager.PasswordSignInAsync(user: user, password: loginVM.Password, false, false);
             if (!result.Succeeded)
             {
-                ModelState.AddModelError("", "Ya Email ya da Password sehvdir");
-                return View(loginVm);
+                ModelState.AddModelError("", "Email ve ya password sehvdir");
+                return View(loginVM);
             }
-            if (returnUrl == null)
-            {
-                return RedirectToAction(nameof(Index), "Home");
-            }
-
-            return Redirect(returnUrl);
-
+            return RedirectToAction("Index", "Home");
 
         }
+
 
         public async Task<IActionResult> Logout()
         {
-            _signinManager.SignOutAsync();
-            return RedirectToAction(nameof(Index), "Home");
-
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
+
+
+
+
+
 
         public async Task<IActionResult> CreateRole()
         {
@@ -128,8 +104,7 @@ namespace Hexagram.MVC.Controllers
                     });
                 }
             }
-
-            return RedirectToAction(nameof(Index), "Home");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

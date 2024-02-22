@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hexagram.Business.ViewModels
 {
-    public class AppUserVM
+    public class RegisterUserVM
     {
         [Required]
         [MinLength(3)]

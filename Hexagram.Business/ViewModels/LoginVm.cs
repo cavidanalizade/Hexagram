@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hexagram.Business.ViewModels
 {
-    public class LoginVm
+    public class LoginVM
     {
         [Required]
         [DataType(DataType.EmailAddress)]

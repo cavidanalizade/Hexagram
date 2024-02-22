@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hexagram.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e94171a10a11af0bcb8a65e99ef90abe3b9b040f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hexagram.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hexagram.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
